@@ -1,0 +1,427 @@
+body {
+    background-color: white;
+    width: 1440px;
+    overflow-y: 50px !important;
+}
+
+ .header-nav {
+    background-color: #457b9d;
+    height: 68px;
+    width: 1440px;
+ }
+
+ .logo {
+    margin-left: 2em;
+    margin-top: 10px;
+ }
+
+ .register {
+    float: right;
+    margin: 12px 25px 12px 10px;
+    border: none;
+    border-radius: 100px;
+    padding: 8px 40px 8px 40px;
+    background-color: #E63946;
+    color: #f1faee;
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Montserrat','Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+
+ .nav-link {
+    text-align: center;
+    float: right;
+    padding: 11px 10px;
+    margin-top: 10px;
+    color: #f1faee;
+    font-size: 20px;
+    font-family:'Montserrat','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+
+ input {
+    float: right;
+    height: 28px;
+    width: 152px;
+    margin: 20px 30px 0px auto;
+    padding: 10px 0px 10px; 
+    border: none;
+ }
+
+ #searchIcon {
+    position: absolute;
+    left: 1269px;
+    top: 7px;
+    font-weight: bold;
+ }
+
+ .top-nav{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat', 'Inter', Lucida Sans Regular, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 0px 0px 0px;
+ }
+
+ .top-nav li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+ }
+
+ .material-symbols-outlined {
+    color: gray;
+ }
+
+ .homePageMainPic {
+    filter: brightness(70%);
+ }
+
+ .headline1{
+    flex-direction: row;
+    height: 20px;
+ }
+
+ .solgan1 {
+    color:#f1faee;
+    text-align: center;
+    flex-wrap: nowrap;
+    position: relative;
+    overflow: hidden;
+    bottom: 450px;
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .solgan2 {
+    color: #f1faee;
+    text-align: center;
+    position: relative;
+    bottom: 550px;
+    font-size: 48px;
+    line-height: 59px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .featureHeadline {
+    color:#f1faee;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    bottom: 580px;
+    max-width: 356px;
+    left: 540px;
+    font-size: 32px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+.resrveButton {
+    background-color: #E63946;
+    color: #f1faee;
+    border: none;
+    border-radius: 100px;
+    position: relative;
+    left: 34%;
+    bottom: 570px;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+
+.welcome1 {
+    display: flex;
+    color: #000;
+}
+
+.ctl-info-container {
+    display: inline;
+    text-align: center;
+}
+
+#ctl-info-heading{
+    position: relative;
+    font-size: 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.ctl-info {
+    display: flex;
+    padding: 0px 40px 0px 40px;
+    margin: 57px 30px 75px 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.015em;  
+}
+
+.ctl-info > div {
+    column-count: 2;
+    left: 19%;
+    right: 10%;
+    top: 800px;
+    font-size: 28px;
+    font-family: 'Montserrat', Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ctl-info div p {
+    margin-top: 25px;
+}
+
+.ctl-left-paragraph {
+    margin-right: 0px;
+}
+
+.ctl-right-Paragraph {
+    padding-top: 25px; 
+    margin-left: 20px; 
+}
+
+.white-container-upper {
+    background-color: white;
+    width: 1440px;
+    height: 578px;
+}
+
+.white-container-lower {
+    background-color: white;
+    width: 1440px;
+    height: 375px;
+}
+
+.blue-container {
+    display: flex;
+    background-color: #1D3557;
+    width: 1440px;
+    height: 646px;
+    margin-top: 50px
+}
+
+.blue-container-text-container{
+    background-color: #1D3557;
+    display: flex;
+    align-items: center;
+}
+
+.blue-container #familyGame {
+    width: 485px;
+    height: 367px;
+    margin: 128px 0 0 47px;
+}
+.blue-container-title {
+    display: inline-block;
+    color:#f1faee;
+    position: absolute;
+    width: 400px;
+    height: 59px;
+    left: 550px;
+    top: 1300px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.blue-container-paragraph-header1 {
+    color:#f1faee;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 100px;
+}
+
+.blue-container-paragraph1{
+    color:#f1faee;
+    width: 650px;
+    padding-top: 70px;
+    line-height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 150.4%;
+}
+
+.blue-container-paragraph-header2{
+    color:#f1faee;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px; 
+}
+
+.blue-container-paragraph2{
+    color:#f1faee;
+    width: 315px;
+    line-height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px; 
+}
+
+#familyGame {
+    width: 852px;
+    height: 491px;
+    padding: 67px 102px 67px 35px;
+}
+
+.slideshow-ellipses{
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: 553px;
+    right: 1300px;
+}
+
+.staff-title {
+    display:inline;
+    justify-items: center;
+}
+
+.staff-title h2 {
+   text-align: center;
+   padding: 30px 0px 15px 0px;
+
+}
+
+.white-container-upper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 0px;
+    width: 1300px;
+    height: 100%;
+   margin: 70px 0px 70px 70px;
+}
+
+.staff-section {
+    margin-left: 250px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    width: 974px;
+    height: 355px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+.staff-pic {
+    flex-basis: 40%;
+    float: left;
+    margin-right: 40px;
+}
+
+.profileInfo > span > h3 {
+    padding-top: 45px;
+    margin-bottom: 0px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.staff-title{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;   
+}
+
+.staff-description{
+    margin-right: 240px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #000000;
+}
+
+/* Linrary Card, K-8 Books, 9-12 Books, Adult Books links */
+
+.white-container-upper > div {
+    display: grid;
+    background-color: #f1faee;
+    width: 233px;
+    height: 533px;
+    border: 1PX none;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-items: center; 
+    text-align: center; 
+    align-items: center;
+    margin-right: 30px;
+}
+
+.white-container-lower {
+    display: flex;
+    width: 1440px;
+    height: 50%;
+}
+
+h3{
+    margin: 90px 0px 20px 20px;
+}
+
+.container3 {
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+}
+.circle {
+    height: 15px;
+    width: 15px;
+    background-color: #457b9d;
+    border-radius: 50%;
+    display:inline-block;
+    margin-right: 2px;
+    
+}
+
+.slate-arrow-left {
+    margin-right: 200px;
+}
+
+.slate-arrow-right {
+    margin-left: 200px;
+}
+
+footer {
+    width: 1440px;
+    height: 116px;
+    background-color: #457b9d; 
+    justify-content: center;
+    text-align: center;
+
+}
+
+footer p {
+    padding-top: 3%;
+    color: #f1faee;
+    margin-top: 3%;
+}
+

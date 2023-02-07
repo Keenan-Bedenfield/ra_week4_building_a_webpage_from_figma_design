@@ -1,0 +1,327 @@
+*{
+    font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: white;
+    width: 100%;
+    overflow-y: 50px !important;
+}
+ .header-nav {
+    background-color: #457b9d;
+    height: 68px;
+    width: 100%;
+ }
+ .logo {
+    margin-left: 2em;
+    margin-top: 10px;
+ }
+ .register {
+    float: right;
+    margin: 12px 25px 12px 10px;
+    border: none;
+    border-radius: 100px;
+    padding: 8px 40px 8px 40px;
+    background-color: #E63946;
+    color: #f1faee;
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+ .nav-link {
+    text-align: center;
+    float: right;
+    padding: 11px 10px;
+    margin-top: 10px;
+    color: #f1faee;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+ #navSearch {
+    float: right;
+    height: 28px;
+    width: 152px;
+    margin: 20px 30px 0px auto;
+    padding: 10px 0px 10px; 
+    border: none;
+ }
+ #book-search {
+    width: 500px;
+    height: 150px;
+    background-color: #457b9d;
+    background-image: url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+ }
+ #searchIcon {
+    display: inline-block;
+    position: relative;
+    left: 1020px;
+    top: 7px;
+    font-weight: bold;
+ }
+ .top-nav{
+    background-color: #F1FAEE;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Inter', Lucida Sans Regular, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+ .top-nav li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+ }
+ .material-symbols-outlined {
+    color: #457B9D;
+ }
+
+/* space for search input css*/
+#search-field {
+    display: inline-block;
+    color: black; 
+}
+
+#firstDiv {
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+}
+
+.topImage{
+    width: 100%;
+}
+
+.imageOverlay {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.logo2 {
+    position: relative;
+    bottom: 230px;
+}
+
+.healdine1{
+    position: relative;
+    bottom: 285px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.headline2 {
+    position: relative;
+    bottom: 320px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.regst_login {
+    position: relative;
+    bottom: 300px;
+    display: block;
+    height: 20px;
+    width: 100%;
+}
+
+.login {
+    float: right;
+    padding-right: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color:#457B9D;
+}
+.have-accnt {
+    float: right;
+    padding-right: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.user-info {
+    flex-direction:column; 
+    margin-top: -270px;
+}
+.userdetails {
+    font-weight: bold;
+    position: relative;
+    padding: 0px 0px 0px 30%;
+
+}
+
+#form1 {
+    display:inline-block;
+    width: 250px;
+    padding: 0px 0px 0px 30%;
+}
+.userFirstName{
+    font-size: 14px;
+    
+}
+
+#form2 {
+    display:inline-block;
+    width: 250px;
+    
+}
+.userLastName{
+    font-size: 14px;
+}
+
+#form3 {
+    display:inline-block;
+    width: 250px;
+    padding: 0px 0px 0px 30%;
+}
+.email{
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+#form4{
+    display:inline-block;
+    padding-top: 10px;
+    width: 250px;
+}
+.phone{
+    font-size: 14px;
+}
+
+#form5{
+    display:inline-block;
+    width: 250px;
+    padding: 0px 0px 0px 30%;
+}
+.age{
+    display: flex;
+    padding: 10px 0px 0px 0px;
+    font-size: 14px;
+    
+}
+
+#form6{
+    display:inline-block;
+    flex-direction:column;
+    width: 250px;
+    padding: 0px 0px 0px 0%;
+}
+.student{
+    display: flex;
+    padding: 10px 0px 0px 0px;
+    font-size: 14px;
+}
+
+#form7{
+    display:inline-block;
+    flex-direction:column;
+    width: 250px;
+    padding: 5px 0px 0px 30%;
+}
+.parent{
+   /* padding: 0px 0px 0px 30%;*/
+    font-size: 14px;
+}
+
+.location-info{
+    flex-direction: column;
+}
+
+#form8{
+    display:inline-block;
+    flex-direction:column;
+    width: 250px;
+    padding: 5px 0px 0px 30%;
+}
+.userAddress{
+    font-weight: bold;
+    position: relative;
+    padding: 0px 0px 0px 30%;
+}
+.address {
+    display: flex; 
+    font-size: 14px;
+}
+
+#form9{
+    display:inline-block;
+    flex-direction:column;
+    width: 250px;
+    padding: 5px 0px 0px 0%;
+}
+.locaction {
+    display:flex;
+    flex-direction:column;
+    width: 250px;
+    font-size: 14px;
+}
+
+.pswrd-info{
+    flex-direction: column; 
+}
+.enter-pswrd{
+    font-weight: bold;
+    position: relative;
+    padding: 0px 0px 0px 30%;
+}
+#form10{
+    display:inline-block;
+    flex-direction:column;
+    width: 250px;
+    padding: 0px 0px 0px 30%;
+}
+.user_pswrd {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;  
+}
+
+#form11{
+    display:inline-block;
+    flex-direction:column;
+    width: 250px;  
+}
+.password_cnfm{
+    font-size: 14px;
+}
+
+.pswrdVigour{
+    padding: 0px 0px 10px 30%;
+    font-size: 14px;
+
+}
+.pswrdRequirements{
+    padding: 0px 0px 0px 30%;
+    font-size: 14px;
+}
+
+footer {
+    width: 1440px;
+    height: 116px;
+    margin-top: 70px;
+    background-color: #457b9d; 
+    justify-content: center;
+    text-align: center;
+
+}
+footer p {
+    padding-top: 3%;
+    color: #f1faee;
+    margin-top: 3%;
+}
+
+

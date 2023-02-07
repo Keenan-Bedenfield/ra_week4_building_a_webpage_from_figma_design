@@ -1,0 +1,311 @@
+body {
+    background-color: white;
+    width: 1440px;
+    overflow-y: 50px !important;
+}
+ .header-nav {
+    background-color: #457b9d;
+    height: 68px;
+    width: 1440px;
+ }
+ .logo {
+    margin-left: 2em;
+    margin-top: 10px;
+ }
+ .register {
+    float: right;
+    margin: 12px 25px 12px 10px;
+    border: none;
+    border-radius: 100px;
+    padding: 8px 40px 8px 40px;
+    background-color: #E63946;
+    color: #f1faee;
+    font-size: 20px;
+    font-weight: bold; 
+    font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+ .nav-link {
+    text-align: center;
+    float: right;
+    padding: 11px 10px;
+    margin-top: 10px;
+    color: #f1faee;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+ #navSearch {
+    float: right;
+    height: 28px;
+    width: 152px;
+    margin: 20px 30px 0px auto;
+    padding: 10px 0px 10px; 
+    border: none;
+ }
+ #book-search {
+    width: 500px;
+    height: 150px;
+    background-color: #457b9d;
+ }
+ #searchIcon {
+    position: absolute;
+    left: 1269px;
+    top: 7px;
+    font-weight: bold;
+ }
+ .top-nav{
+    background-color: #F1FAEE;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Inter', Lucida Sans Regular, 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+ .top-nav li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+ }
+ .material-symbols-outlined {
+    color: #457B9D;
+ }
+
+/* space for search input css*/
+#search-field {
+    display: inline-block;
+    color: black; 
+}
+
+form {
+    display: inline-block;
+    background-image: url("../https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+
+}
+
+#books-searchBar {
+    display: block;
+    text-align: left;
+    margin: 40px 0px 40px 290px;
+    width: 800px;
+    height: 24px;
+    color: #457B9D;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 0.5;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat right 2px;
+}
+
+.material-symbols-outlined {
+    color: #457B9D; 
+}
+
+h2 {
+    text-align: center;
+}
+
+.viewAll1 {
+    color: #457b9d;
+    text-align: right;
+    margin-right:320px;
+}
+
+.viewAll2 {
+    color: #457b9d;
+    text-align: right;
+    margin-right:410px;
+}
+
+.viewAll3 {
+    color: #457b9d;
+    text-align: right;
+    margin-right:300px;
+}
+
+.container3 {
+    display: grid;
+    margin-left:5px;
+    height: auto;
+    width:auto;
+    margin-bottom: 0px;
+    padding-inline: 1rem; 
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding-bottom: 25px;
+    align-items: center;
+    width: 55%;
+    margin-left: 2%;
+    
+
+}
+
+.tile {
+    max-height: 350px;
+    border: 5px solid #F1FAEE; 
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color:  #F1FAEE;
+    
+}
+
+.tile img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    padding-top: .8rem;
+    /*object-fit: cover;*/
+}
+
+.tile-content {
+    z-index: 10;
+    padding: .5rem; 
+    line-height: 1.1;
+
+}
+
+.quantity {
+   float: left;
+   line-height: 5px;
+
+}
+
+.reserveBook {
+    border: 2px solid #E63946;
+    border-radius: 10px;
+    padding: 3px 5px 3px 5px;
+    background-color: #E63946;
+    color: #F1FAEE;
+    float: right;
+    font-size: 17px;
+    line-height: 26px;
+
+}
+.availability {
+    height: 20px;
+    color:  #208E1E;
+    font-size: 12px;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.content-gridMid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding-bottom: 25px;
+    align-items: center;
+    width: 55%;
+    margin-left: 16%;
+
+}
+
+
+/*
+.movieContainer {
+    height: 200px;
+    width:1vw;
+    display: flex;
+    text-align: center;
+    margin-left: 257px;
+    line-height: 200px;
+    margin-bottom: 200px;
+}
+.slate-arrow-left-4 {
+    position: absolute;
+    left: 120px;
+    right: 0px;
+    padding-top: 10%;
+     /*distance from book
+}
+.slate-arrow-right-4 {
+    position: absolute;
+    right: -160px;
+    padding-top: 10%;
+    padding-left: 10px;
+}
+
+/*
+.books-row {
+    
+    grid-template-columns: auto auto auto auto;
+    column-count: 4;
+    row: count 1px;
+    line-height: 260px;
+    height: 200px;
+    max-width: 1100px;
+    column-gap: 10px;
+}
+*/
+
+.slate-arrow-left {
+    padding-left: 9em;
+}
+
+
+.slate-arrow-right {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-right: auto;
+}
+
+.slate-arrow-left2 {
+    padding-left: 90px;
+}
+.slate-arrow-right2 {
+    padding-right: 0px;
+
+}
+
+
+
+
+.resource-section {
+    display: inline-block;
+    column-count: 4;
+    column-gap: 33px;
+    justify-content: center;
+    margin: auto;
+    border: 1px none #D9D9D9;
+    
+}
+
+.resource-tiles {
+    font: 24px;
+    height: 50px;
+    width: 305px;
+    line-height: 29px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.resource-tiles a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+footer {
+    width: 1440px;
+    height: 116px;
+    margin-top: 70px;
+    background-color: #457b9d; 
+    justify-content: center;
+    text-align: center;
+
+}
+footer p {
+    padding-top: 3%;
+    color: #f1faee;
+    margin-top: 3%;
+}
+
+
